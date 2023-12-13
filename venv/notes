@@ -16,3 +16,7 @@ Farklı fatura tipleri, farklı formatlarda ve düzenlerde olabilir, bu nedenle 
     Kullanıcılardan gelen girişleri veya doğrulamaları kullanarak fatura tipini tanımak için bir kullanıcı arabirimine sahip bir sistem geliştirebilirsiniz. Kullanıcılar hangi tür faturayla karşılaştıklarını seçer ve sistem bu tür faturanın düzenine göre bilgi çıkartır.
 
 Farklı fatura tipleriyle çalışırken, bu fatura tiplerini tanımak ve bilgi çıkartmak için birden fazla yaklaşımı birleştirmeniz gerekebilir. Ayrıca, faturalardan çıkarılan bilgilerin doğruluğunu düzenli olarak kontrol etmek ve hata düzeltme mekanizmaları eklemek de önemlidir.
+###################################################################################################################
+Projeyi sanal ortamda calıstırmak için 
+venv\Scripts\activate
+python main.py
