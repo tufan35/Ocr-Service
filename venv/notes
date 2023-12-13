@@ -1,0 +1,18 @@
+Farklı fatura tipleri, farklı formatlarda ve düzenlerde olabilir, bu nedenle farklı fatura tiplerini tanımak ve doğru bilgileri almak için bazı farklı yaklaşımlar gerekebilir. İşte farklı fatura tiplerinden bilgi çıkarmak için kullanabileceğiniz bazı yaklaşımlar:
+
+    Veri Etiketleme:
+    Her fatura tipi için özel bir etiketleme işlemi yapabilirsiniz. Yani, her fatura tipi için belirli alanları (örneğin, KDV tutarı, toplam tutar, fatura tarihi) etiketlersiniz. Bu, fatura tipi belirlemesi yapmadan önce gelen faturaları etiketlemek için bir öğrenme veri seti oluşturmayı içerir. Daha sonra fatura tipine göre etiketlenmiş faturalardan öğreneceğiniz modeli kullanarak farklı fatura tiplerinden bilgi çıkartabilirsiniz.
+
+    Fatura Tipi Tanıma:
+    İlk olarak, fatura tipini tanımak için bir model veya algoritma geliştirin. Fatura tipini tanıdıktan sonra, o fatura tipinin düzenine uygun şekilde belirli alanları çıkartmak için bir dizi kural veya model kullanabilirsiniz. Örneğin, bir fatura tarihi bulmak için tarih formatlarını arayabilirsiniz.
+
+    Kombine Yaklaşım:
+    Farklı fatura tiplerini tanıyabilmek ve faturaların düzenlerini anlayabilmek için kombine bir yaklaşım kullanabilirsiniz. İlk olarak fatura tipini tanıyın ve sonra tanımlanan fatura tipi için özel bir bilgi çıkarma modeli veya kural seti kullanın.
+
+    Transfer Öğrenme:
+    Bir tür transfer öğrenme kullanarak, farklı fatura tiplerinden bilgi çıkartma modelinizi eğitebilirsiniz. Önce genel bir OCR modeli eğitin ve ardından her fatura tipi için özel bilgi çıkarma modelini eğitmek için bu modeli kullanın.
+
+    Kullanıcı Girişi:
+    Kullanıcılardan gelen girişleri veya doğrulamaları kullanarak fatura tipini tanımak için bir kullanıcı arabirimine sahip bir sistem geliştirebilirsiniz. Kullanıcılar hangi tür faturayla karşılaştıklarını seçer ve sistem bu tür faturanın düzenine göre bilgi çıkartır.
+
+Farklı fatura tipleriyle çalışırken, bu fatura tiplerini tanımak ve bilgi çıkartmak için birden fazla yaklaşımı birleştirmeniz gerekebilir. Ayrıca, faturalardan çıkarılan bilgilerin doğruluğunu düzenli olarak kontrol etmek ve hata düzeltme mekanizmaları eklemek de önemlidir.
